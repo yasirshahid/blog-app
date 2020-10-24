@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './NavBar.css';
 
@@ -27,7 +27,7 @@ function NavBar() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <li classNamr="nav-item">
+                        <li className="nav-item">
                             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                                 Home
                             </Link>
